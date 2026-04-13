@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 function aleatorio() {
 
-    const randomNumber = Math.floor((Math.random() * 100) + 1)
+    const randomNumber = Math.floor((Math.random() * 500) + 1)
     return randomNumber;
 
 }
@@ -18,7 +18,7 @@ const randomizador = aleatorio()
 let somaTentativas = 0
 let vida = 10
 
-console.log("***BEM-VINDO AO JOGO DA ADVINHAÇÃO!\nTENTE ACERTAR O NÚMERO MISTERIOSO DE 1 A 100\nVOCÊ TEM 10 TENTATIVAS!")
+console.log("***BEM-VINDO AO JOGO DA ADVINHAÇÃO!\nTENTE ACERTAR O NÚMERO MISTERIOSO DE 1 A 500\nVOCÊ TEM 10 TENTATIVAS!")
 
 
 function entrada() {
